@@ -12,6 +12,7 @@ module.exports = {
       white: '#ffffff',
       grey: '#909090',
       pink: '#ff9fac',
+      dark: '#808080',
     },
     backgroundPosition: {
       center: '50% 100%',
