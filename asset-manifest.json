@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BTQ-assignment/static/css/main.843c7ce2.css",
-    "main.js": "/BTQ-assignment/static/js/main.c6113353.js",
+    "main.css": "/BTQ-assignment/static/css/main.0540c161.css",
+    "main.js": "/BTQ-assignment/static/js/main.32019e0f.js",
     "static/js/787.39d54e35.chunk.js": "/BTQ-assignment/static/js/787.39d54e35.chunk.js",
     "static/media/conf.png": "/BTQ-assignment/static/media/conf.6c1897de506f61d22c2c.png",
     "static/media/tiffani.png": "/BTQ-assignment/static/media/tiffani.f3f2abe62d6912114d97.png",
@@ -16,12 +16,12 @@
     "static/media/mailchimp.png": "/BTQ-assignment/static/media/mailchimp.b49797e9d2a3424be153.png",
     "static/media/dropbox.png": "/BTQ-assignment/static/media/dropbox.f11ae690343847395c97.png",
     "index.html": "/BTQ-assignment/index.html",
-    "main.843c7ce2.css.map": "/BTQ-assignment/static/css/main.843c7ce2.css.map",
-    "main.c6113353.js.map": "/BTQ-assignment/static/js/main.c6113353.js.map",
+    "main.0540c161.css.map": "/BTQ-assignment/static/css/main.0540c161.css.map",
+    "main.32019e0f.js.map": "/BTQ-assignment/static/js/main.32019e0f.js.map",
     "787.39d54e35.chunk.js.map": "/BTQ-assignment/static/js/787.39d54e35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.843c7ce2.css",
-    "static/js/main.c6113353.js"
+    "static/css/main.0540c161.css",
+    "static/js/main.32019e0f.js"
   ]
 }
