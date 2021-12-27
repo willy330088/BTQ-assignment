@@ -11,7 +11,8 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <div className="h-[18px] bg-shadow bg-contain bg-red md:h-[31px]"></div>
+      <div className="h-[18px] bg-shadow bg-contain md:h-[31px] sticky top-0 z-10"></div>
+      <div className="absolute bg-red h-[18px] md:h-[31px] top-[48px] md:top-[156px] w-[100%] z-5"></div>
       <ConferenceSection />
       <div className="bg-conf bg-cover h-[170px]"></div>
       {section.map((s) => {
