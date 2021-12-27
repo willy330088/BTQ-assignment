@@ -9,7 +9,9 @@ export default function ContentItem({ subtitle, title, content, img }) {
       <h4 className="text-center text-grey mt-[30px] mb-[10px] text-[11px]">
         {subtitle}
       </h4>
-      <h2 className="text-center text-black mb-[15px] text-[18px]">{title}</h2>
+      <h2 className="text-center text-black mb-[15px] text-[18px] font-serif">
+        {title}
+      </h2>
       <p className="text-dark mb-[20px] text-[13px]">{content}</p>
     </li>
   );

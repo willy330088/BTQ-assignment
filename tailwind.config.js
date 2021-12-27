@@ -31,6 +31,7 @@ module.exports = {
         conf: "url('images/conf.png')",
         nutsRed: "url('images/nuts-red.png')",
         divider: "url('images/divider.png')",
+        nutsWhite: "url('images/nuts-white.png')",
       },
     },
   },

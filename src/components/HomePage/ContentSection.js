@@ -31,11 +31,8 @@ export default function ContentSection({ title, info }) {
                 <div className="bg-black w-full rounded-[5px]">
                   <img src={f.img} alt={'related-pic'} className="m-auto" />
                 </div>
-                <h4 className="text-center text-grey mt-[30px] mb-[10px] text-[11px]">
-                  {f.subtitle}
-                </h4>
-                <h2 className="text-center text-black mb-[15px] text-[18px]">
-                  {title}
+                <h2 className="text-center text-black mb-[15px] text-[18px] font-serif mt-[20px]">
+                  {f.title}
                 </h2>
                 <p className="text-dark mb-[20px] text-[13px]">{f.content}</p>
               </li>
@@ -64,7 +61,7 @@ export default function ContentSection({ title, info }) {
 
   return (
     <div className="px-[20px] py-[50px] flex flex-col items-center bg-divider bg-repeat-x bg-center bg-dividerH">
-      <h2 className="mb-[15px] w-[250px] text-center text-[30px] md:text-[38px] lg:text-[48px] pb-[17px] bg-nutsRed bg-no-repeat bg-center bg-nuts">
+      <h2 className="mb-[15px] w-[250px] text-center text-[30px] md:text-[38px] lg:text-[48px] pb-[17px] bg-nutsRed bg-no-repeat bg-center bg-nuts font-serif">
         {title}
       </h2>
       <p className="text-center text-[15px] text-grey mb-[48px] sm:text-[18px] md:text-[17px] lg:text-[21px] lg:mb-[20px] max-w-[560px]">

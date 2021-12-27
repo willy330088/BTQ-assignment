@@ -21,11 +21,11 @@ export default function HomePage() {
         <ul className="sm:flex sm:justify-around max-w-[1150px] m-auto">
           {popupList.map((p) => {
             return (
-              <li className="mb-[30px] sm:w-[47%]">
+              <li className="mb-[30px] sm:w-[47%]" key={p.title}>
                 <h4 className="text-center text-grey mt-[30px] mb-[10px] text-[11px]">
                   {p.subtitle}
                 </h4>
-                <h2 className="text-center text-black mb-[15px] text-[18px]">
+                <h2 className="text-center text-black mb-[15px] text-[18px] font-serif">
                   {p.title}
                 </h2>
                 <p className="text-dark mb-[20px] text-[13px]">{p.content}</p>

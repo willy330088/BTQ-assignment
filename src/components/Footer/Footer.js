@@ -7,7 +7,7 @@ export default function Footer() {
       <ul className="flex flex-wrap justify-center md:flex-nowrap max-w-[1150px] m-auto">
         {footer.map((f) => {
           return (
-            <li className="w-[45%]">
+            <li className="w-[45%]" key={f.title}>
               <h4 className="hidden text-[11px] text-grey text-center mb-[10px] md:block">
                 {f.subtitle}
               </h4>
