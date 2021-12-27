@@ -13,7 +13,7 @@ export default function Header() {
           <ul className="flex justify-between mb-[15px]">
             {navTopData.map((d) => {
               return (
-                <li className="w-[100px]">
+                <li className="w-[100px]" key={d.day}>
                   <div className="text-grey text-[9px]">{d.day}</div>
                   <div className="text-white text-[13px]">{d.content}</div>
                 </li>
@@ -23,7 +23,7 @@ export default function Header() {
           <ul className="flex justify-between">
             {navBottomData.map((d) => {
               return (
-                <li className="w-[100px]">
+                <li className="w-[100px]" key={d.day}>
                   <div className="text-grey text-[9px]">{d.day}</div>
                   <div className="text-white text-[13px]">{d.content}</div>
                 </li>

@@ -23,7 +23,7 @@ export default function ConferenceSection() {
       <ul className="w-[100%] max-w-[1165px] sm:flex sm:flex-wrap md:justify-between">
         {SpeakerTop.map((speaker) => {
           return (
-            <li className="mb-[30px] sm:w-[50%] md:w-[22%]">
+            <li className="mb-[30px] sm:w-[50%] md:w-[22%]" key={speaker.name}>
               <img src={speaker.photoURL} alt={speaker} className="m-auto" />
               <h3 className="text-center text-pink text-[18px]">
                 {speaker.name}
@@ -36,7 +36,10 @@ export default function ConferenceSection() {
         {SpeakerBottom.map((speaker, index) => {
           if (index + 1 === SpeakerBottom.length) {
             return (
-              <li className="mb-[30px] sm:w-[100%] md:w-[22%]">
+              <li
+                className="mb-[30px] sm:w-[100%] md:w-[22%]"
+                key={speaker.name}
+              >
                 <img src={speaker.photoURL} alt={speaker} className="m-auto" />
                 <h3 className="text-center text-pink text-[18px]">
                   {speaker.name}
@@ -45,7 +48,10 @@ export default function ConferenceSection() {
             );
           } else {
             return (
-              <li className="mb-[30px] sm:w-[50%] md:w-[22%]">
+              <li
+                className="mb-[30px] sm:w-[50%] md:w-[22%]"
+                key={speaker.name}
+              >
                 <img src={speaker.photoURL} alt={speaker} className="m-auto" />
                 <h3 className="text-center text-pink text-[18px]">
                   {speaker.name}

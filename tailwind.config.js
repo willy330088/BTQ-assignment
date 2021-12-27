@@ -13,12 +13,21 @@ module.exports = {
       grey: '#909090',
       pink: '#ff9fac',
     },
+    backgroundPosition: {
+      center: '50% 100%',
+    },
+    backgroundSize: {
+      nuts: '54px 11px',
+      dividerH: '32px',
+    },
     extend: {
       backgroundImage: {
         logo: "url('images/logo.png')",
         pattern: "url('images/pattern.png')",
         shallow: "url('images/shallow-patt.png')",
         conf: "url('images/conf.png')",
+        nutsRed: "url('images/nuts-red.png')",
+        divider: "url('images/divider.png')",
       },
     },
   },
