@@ -5,6 +5,7 @@ import ContentSection from './ContentSection';
 import section from '../../lists/section';
 import popupList from '../../lists/popupList';
 import sponsors from '../../lists/sponsors';
+import Footer from '../Footer/Footer';
 
 export default function HomePage() {
   return (
@@ -51,6 +52,7 @@ export default function HomePage() {
           })}
         </ul>
       </section>
+      <Footer />
     </>
   );
 }
