@@ -8,6 +8,7 @@ export default function HomePage() {
       <Header />
       <div className="h-[18px] bg-pattern bg-contain bg-red md:h-[31px]"></div>
       <ConferenceSection />
+      <div className="bg-conf bg-cover h-[170px]"></div>
     </>
   );
 }

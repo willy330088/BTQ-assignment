@@ -18,6 +18,7 @@ module.exports = {
         logo: "url('images/logo.png')",
         pattern: "url('images/pattern.png')",
         shallow: "url('images/shallow-patt.png')",
+        conf: "url('images/conf.png')",
       },
     },
   },

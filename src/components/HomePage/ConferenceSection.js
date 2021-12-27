@@ -1,4 +1,6 @@
 import React from 'react';
+import SpeakerTop from '../../lists/SpeakerTop';
+import SpeakerBottom from '../../lists/SpeakerBottom';
 
 export default function ConferenceSection() {
   return (
@@ -15,9 +17,44 @@ export default function ConferenceSection() {
         ideas, tell stories, get their hands dirty, and drink
         a&nbsp;few&nbsp;beers.
       </p>
-      <button className="w-[140px] h-[40px] text-white bg-black rounded-[7px]">
+      <button className="w-[140px] h-[40px] text-white bg-black rounded-[7px] mb-[35px]">
         SOLD OUT
       </button>
+      <ul className="w-[100%] max-w-[1165px] sm:flex sm:flex-wrap md:justify-between">
+        {SpeakerTop.map((speaker) => {
+          return (
+            <li className="mb-[30px] sm:w-[50%] md:w-[22%]">
+              <img src={speaker.photoURL} alt={speaker} className="m-auto" />
+              <h3 className="text-center text-pink text-[18px]">
+                {speaker.name}
+              </h3>
+            </li>
+          );
+        })}
+      </ul>
+      <ul className="w-[100%] max-w-[1165px] sm:flex sm:flex-wrap md:justify-evenly">
+        {SpeakerBottom.map((speaker, index) => {
+          if (index + 1 === SpeakerBottom.length) {
+            return (
+              <li className="mb-[30px] sm:w-[100%] md:w-[22%]">
+                <img src={speaker.photoURL} alt={speaker} className="m-auto" />
+                <h3 className="text-center text-pink text-[18px]">
+                  {speaker.name}
+                </h3>
+              </li>
+            );
+          } else {
+            return (
+              <li className="mb-[30px] sm:w-[50%] md:w-[22%]">
+                <img src={speaker.photoURL} alt={speaker} className="m-auto" />
+                <h3 className="text-center text-pink text-[18px]">
+                  {speaker.name}
+                </h3>
+              </li>
+            );
+          }
+        })}
+      </ul>
     </section>
   );
 }
