@@ -20,12 +20,14 @@ module.exports = {
     backgroundSize: {
       nuts: '54px 11px',
       dividerH: '32px',
+      contain: 'contain',
+      cover: 'cover',
     },
     extend: {
       backgroundImage: {
         logo: "url('images/logo.png')",
         pattern: "url('images/pattern.png')",
-        shallow: "url('images/shallow-patt.png')",
+        shadow: "url('images/shadow-patt.png')",
         conf: "url('images/conf.png')",
         nutsRed: "url('images/nuts-red.png')",
         divider: "url('images/divider.png')",

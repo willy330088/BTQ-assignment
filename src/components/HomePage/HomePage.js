@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <div className="h-[18px] bg-pattern bg-contain bg-red md:h-[31px]"></div>
+      <div className="h-[18px] bg-shadow bg-contain bg-red md:h-[31px]"></div>
       <ConferenceSection />
       <div className="bg-conf bg-cover h-[170px]"></div>
       {section.map((s) => {
