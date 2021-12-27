@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="bg-black h-[48px] md:h-[156px]">
       <div className="h-full mx-auto flex items-center justify-between max-w-[1165px] md:justify-around">
-        <div className="w-[50px] h-[50px] bg-logo bg-contain bg-no-repeat md:mx-[30px]"></div>
+        <div className="w-[44px] h-[44px] bg-logo bg-contain bg-no-repeat md:mx-[30px]"></div>
         <BurgerMenu />
         <nav className="hidden md:block w-[60%] mr-[50px]">
           <ul className="flex justify-between mb-[15px]">
